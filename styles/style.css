@@ -319,11 +319,14 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: center;
+  gap:40px;
+
 }
 
 .step {
-  /* Add styles */
+  flex-basis: 200px;
 }
 
 .step__title {
@@ -358,6 +361,10 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+}
+
+.about__paragraph{
+
 }
 
 .about__content {
