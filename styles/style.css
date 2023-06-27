@@ -363,15 +363,23 @@
   z-index: 1;
 }
 
-.about__paragraph{
-
+.about__paragraph {
+position:relative;
+bottom: 32px;
+margin-bottom: 32px;
+margin-top: 0;
 }
-
 .about__content {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  margin-left: 274px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about__paragraph:nth-of-type(3n) {
+  margin-bottom: 0;
 }
 
 .about__circle {
