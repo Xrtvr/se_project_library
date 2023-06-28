@@ -360,7 +360,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .about__paragraph {
@@ -368,6 +369,7 @@ position:relative;
 bottom: 32px;
 margin-bottom: 32px;
 margin-top: 0;
+z-index: 2;
 }
 .about__content {
   font-size: 20px;
@@ -377,6 +379,7 @@ margin-top: 0;
   margin-left: 274px;
   display: flex;
   flex-wrap: wrap;
+  position: static;
 }
 .about__paragraph:nth-of-type(3n) {
   margin-bottom: 0;
@@ -387,6 +390,10 @@ margin-top: 0;
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  top: -127px;
+  left: -91px;
+  z-index: 1
 }
 
 .footer {
