@@ -20,19 +20,19 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a class="nav__link" href="#Staff-picks">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#membership">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#about">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +56,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -67,6 +67,7 @@
                 <div
                   class="event-info__icon event-info__icon_type_calendar"
                 ></div>
+
                 <p class="event-info__text">Mon, January 12</p>
               </div>
               <div class="event-info__item">
@@ -137,7 +138,7 @@
         </section>
 
         <section class="staff">
-          <h2 class="staff__title">Staff Picks</h2>
+          <h2 class="staff__title" id="Staff-picks">Staff Picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__list">
             <li class="card">
@@ -210,7 +211,7 @@
           </ul>
         </section>
 
-        <section class="membership">
+        <section class="membership" id="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -266,7 +267,7 @@
           </ul>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -290,40 +291,51 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <div class="footer__columns">
           <div class="footer__column">
-            <a class="footer__logo">
-              <img src="/images/logo_white.svg">
-            </a>
+            <img
+              class="footer__logo"
+              src="/images/logo_white.svg"
+              alt="Twin Peaks Library Logo"
+            />
           </div>
-          <div class="footer__column">
-            <div class="footer__column_content_hours">
-              <h2 class="footer__column-heading">Hours</h2>
-              <ul class="footer__list">
-                <li class="footer__list-item">Weekdays:9am - 8pm</li>
-                <li class="footer__list-item">Weekends: 10am - 6pm</li>
-              </ul>
-            </div>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item:last-of-type">
+                Weekends: 10am - 6pm
+              </li>
+            </ul>
           </div>
-          <div class="footer__column">
-            <div class="footer__column_content_social">
-              <h2 class="footer__column-heading">Social Media</h2>
-              <ul class="footer__list">
-                <li class="footer__list-item">
-                  <a href="#" class="footer__column-link">
-                    <img class="footer__social-icon" src="/images/facebook_white.svg">
-                    Facebook</a>
-                </li>
-                <li class="footer__list-item">
-                  <a href="#" class="footer__column-link">
-                    <img class="footer__social-icon" src="/images/instagram_white.svg">
-                    Instagram</a>
-                </li>
-              </ul>
-            </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item:last-of-type">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="Instagram Logo"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
           </div>
-          <p class="footer__copyright">©2023[Arturo Cerda]</p>
+          <p class="footer__copyright">&copy; 2023 Arturo Cerda</p>
+
         </div>
       </footer>
     </div>
