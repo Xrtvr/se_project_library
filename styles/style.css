@@ -470,7 +470,7 @@ z-index: 2;
   text-decoration: none;
 }
 
-footer__column-link:hover {
+.footer__column-link:hover {
   color:#c1c1c1;
 }
 
