@@ -27,7 +27,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.logo {
+.nav__logo {
   width: 196px;
   height: 60px;
 }
@@ -89,7 +89,7 @@
   text-decoration: none;
 }
 
-.header__link {
+.header__link:hover {
   color:#1f69c9
 }
 
@@ -170,7 +170,7 @@
   text-decoration: none;
 }
 
-.events__more {
+.events__more:hover {
   color:#1f69c9
 }
 
@@ -263,7 +263,7 @@
   margin: 0;
   color:#fff
 }
-.staff__list {
+.staff__cards {
   max-width: 760px;
   margin-top: 68px;
   margin-left: auto;
@@ -403,7 +403,7 @@ z-index: 2;
   height: 495px;
   border-radius: 50%;
   position: absolute;
-  top: -127px;
+  top: -121px;
   left: -91px;
   z-index: 1
 }
